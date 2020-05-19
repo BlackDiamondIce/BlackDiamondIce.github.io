@@ -40,6 +40,11 @@ h5 {
     z-index: 1000;
 }
 
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav {
     font-size: 16px;
     text-transform: uppercase;

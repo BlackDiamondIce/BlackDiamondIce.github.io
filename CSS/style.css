@@ -45,11 +45,6 @@ h5 {
     justify-content: space-between;
 }
 
-.nav {
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
 .nav_link {
     margin: 0 10px;
     color: #ffffff;
@@ -59,17 +54,21 @@ h5 {
     line-height: 18px;
     text-transform: uppercase;
     transition: color .2s linear;
+    text-decoration: none;
 }
 
 .nav_link:hover {
     color: #eb7d4b;
 }
 
-.logo {
-    margin-top: 57px;
+.menu {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head_text {
+    margin-top: 145px;
     color: #f7f3ea;
     font-family: "Titillium Web";
     font-size: 42px;
@@ -77,4 +76,9 @@ h5 {
     line-height: 48.82px;
     /* Text style for "" */
     text-transform: uppercase;
+}
+
+.head_text,
+h1 {
+    line-height: 100px;
 }

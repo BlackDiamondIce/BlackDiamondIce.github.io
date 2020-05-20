@@ -71,3 +71,13 @@ h5 {
 .logo {
     margin-top: 57px;
 }
+
+.head_text {
+    color: #f7f3ea;
+    font-family: "Titillium Web";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.82px;
+    /* Text style for "" */
+    text-transform: uppercase;
+}

@@ -61,6 +61,11 @@ h5 {
     color: #eb7d4b;
 }
 
+.nav {
+    margin-top: 13px;
+    margin-left: 800px;
+}
+
 .menu {
     margin-top: 60px;
     display: flex;
